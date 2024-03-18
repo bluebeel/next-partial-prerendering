@@ -7,6 +7,8 @@ import { Reviews, ReviewsSkeleton } from '#/components/reviews';
 import { SingleProduct } from '#/components/single-product';
 import { Ping } from '#/components/ping';
 
+export const revalidate = 1800;
+
 export default function Page() {
   return (
     <div className="space-y-8 lg:space-y-14">
